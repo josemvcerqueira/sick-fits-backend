@@ -15,7 +15,7 @@ type Mutation {
 type Query {
 	items(
 		where: ItemWhereInput
-		orderBy: itemOrderByInput
+		orderBy: ItemOrderByInput
 		skip: Int
 		first: Int
 	): [Item]!
