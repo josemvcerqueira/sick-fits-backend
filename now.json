@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"name": "sick-fits-backend",
+	"env": {
+		"FRONTEND_URL": "http://localhost:7777",
+		"PRISMA_ENDPOINT": "https://prisma-sick-fits-74a0af883f.herokuapp.com/sick-fits-prod/prod",
+		"PRISMA_SECRET": "Warglaives are the best weapon",
+		"APP_SECRET": "jwtsecret1991",
+		"STRIPE_SECRET": "sk_test_7MUM1EJz6hM3MqpCjoXv3lJj00XbSpTv66",
+		"PORT": "4444",
+		"MAIL_HOST": "smtp.mailtrap.io",
+		"MAIL_PORT": "2525",
+		"MAIL_USER": "32392dc712ee3a",
+		"MAIL_PASS": "9dc7252a107c46"
+	},
+	"builds": [{ "src": "*.js", "use": "@now/node" }]
+}
